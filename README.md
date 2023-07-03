@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AstroSage Space Blog - Next.js
 
-## Getting Started
+## Overview
+Welcome to the Space Blog! This is a personal blog website dedicated to sharing articles and information about space. The website is built using Next.js and Tailwind CSS, and it utilizes .mdx files as posts.
 
-First, run the development server:
+## Features
+- Browse through a collection of articles and posts related to space.
+- Read detailed posts with rich content including text, images, and embedded components.
+- Explore a user-friendly and responsive interface.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Journey
+This project started as a personal endeavor to share my passion for space exploration and astronomy. Inspired by the wonders of the universe, I decided to build a blog to document and share my thoughts, knowledge, and discoveries with others who share the same enthusiasm.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Throughout this journey, I learned the power of Next.js and Tailwind CSS in simplifying the development process and creating visually stunning and responsive websites. Leveraging the flexibility of MDX, I could seamlessly combine Markdown with JSX and React components, allowing me to create rich and interactive blog posts. I also learnt the usage of fs to read the directory and access its content server side.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+I hope this Space Blog serves as a valuable resource for fellow space enthusiasts, sparking curiosity and fostering a sense of wonder about the cosmos. Join me on this incredible journey as we explore the mysteries of the universe together!
 
-[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.js`.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Folder Structure
+- `/app`: Contains the main pages of the application.
+- `/components`: Holds reusable components used across the app.
+- `/public`: Contains images and icons
+- `/utils`: Contains helper functions
+- `/app/globals.css`: Stores global and component-specific styles.
+- `/posts`: It contains the 'mdx' file i.e the blog post content.
 
-## Learn More
+## Technologies Used
+- Next.js: A React framework for building server-rendered applications.
+- Tailwind CSS: A utility-first CSS framework for building responsive designs.
+- MDX: Markdown with support for JSX and React components.
 
-To learn more about Next.js, take a look at the following resources:
+## Live Website Link
+- 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Credits
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [MDX](https://mdxjs.com/)
+- [TraverseyMedia - youtube channel](https://youtu.be/MrjeefD8sac) (Learnt the usage of fs and converting mdx to html)
