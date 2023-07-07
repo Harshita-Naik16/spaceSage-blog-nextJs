@@ -3,6 +3,14 @@ import matter from 'gray-matter'
 import { marked } from 'marked'
 import path from 'path'
 
+export async function generateStaticParams() {
+  const files = fs.readdirSync(path.join('posts'))
+  const paths = files.map(filename => {
+    return {slug : filename.replace(".md", "")}
+  })
+  return paths
+}
+
 function getData(slug) {
   const markdownWithMeta = fs.readFileSync(path.join("posts", slug + '.md'), 'utf-8')
   const {data:frontmatter, content} = matter(markdownWithMeta)
@@ -12,10 +20,10 @@ function getData(slug) {
   }
 }
 
+
 const PostPage = ({params}) => {
   const data = getData(params.slug)
   const {frontmatter: {title, date, cover_image, author}, content} = data
-
 
   return (
     <div className='section'>
@@ -32,5 +40,3 @@ const PostPage = ({params}) => {
 
 export default PostPage
 
-
-// generateStaticParams()
