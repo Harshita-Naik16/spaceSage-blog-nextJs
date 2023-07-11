@@ -3,6 +3,10 @@
 ## Overview
 Welcome to the Space Blog! This is a personal blog website dedicated to sharing articles and information about space. The website is built using Next.js and Tailwind CSS, and it utilizes .mdx files as posts.
 
+## Screenshots
+![homepage](./public/images/Screenshot%202023-07-11%20at%2012-18-21%20SpaceSage%20Blog.png)
+![blog page](./public/images/Screenshot%202023-07-11%20at%2012-18-36%20SpaceSage%20Blog.png)
+
 ## Features
 - Browse through a collection of articles and posts related to space.
 - Read detailed posts with rich content including text, images, and embedded components.
